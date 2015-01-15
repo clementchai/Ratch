@@ -1,0 +1,74 @@
+body{
+  -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+/*
+
+Logo and header
+
+*/
+.content h1{
+  text-align: center;
+}
+
+.content > h3{
+  text-align: center;
+  font-weight: lighter;
+}
+
+#logo{
+  padding-top: 10px;
+  width: 100%;
+}
+
+/*
+
+Main Menu
+
+*/
+
+/*Override*/
+#service-menu > .table-view-cell {
+  position: relative;
+  padding: 0 0 0 0;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  background:rgba(0, 0, 0, .75);
+}
+
+.menu-img{
+  position: relative; 
+  width: 100%;
+  opacity: 0.6;
+}
+
+.table-view-cell p { 
+   position: absolute; 
+   text-align: center;
+   top: 30%; 
+   left: 0; 
+   width: 100%; 
+   font-size: 2.5em;
+   color: #fff;
+   line-height: 1em;
+}
+
+/*
+
+Detail Pages
+
+*/
+
+.detail-img{
+  width: 100%;
+}
+
+.detail-body{
+  margin: 0 10px 0 10px;
+}
+
+#terms{
+  text-align: center;
+  font-size: 0.8em;
+}
